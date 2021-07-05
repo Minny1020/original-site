@@ -1,0 +1,9 @@
+@charset "Utf-8";  
+
+img {
+  width: 100%;
+}
+
+body {
+  background-image: url(img/bg2.png);
+}
