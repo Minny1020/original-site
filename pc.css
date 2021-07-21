@@ -28,22 +28,37 @@ body {
     flex-basis: 60%;
   }
 
-  .portfolio {
+  .port {
     text-align: center;
     font-size: 35px;
     font-weight: bolder;
   }
 
-  .portfolio p {
+  .port p {
     margin: 30px 0px 0px 0px;
   }
-
+/* 
   .works {
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
   }
-  .works  img {
-    width: 90%;
-    margin:30px 0px 20px 0px;
+
+  .works img {
+    width: 20%;
+  } */
+
+  .works-list {
+    margin-bottom: -40px;
+    /* display: flex;
+    flex-wrap: wrap; */
+  }
+  
+  .works-img img{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #e6e6e6;
+    justify-content: space-around;
+    width: 50%;
   }
 
   .tittle {
@@ -79,21 +94,3 @@ body {
   .skill-name {
     margin-bottom: 3px;
   }
-
-  .contact {
-    font-size: 20px;
-    text-align: center;
-    font-weight: bold;
-  }
-
-  .contact-list img {
-    width: 15%;
-  }
-
-  .lead {
-    text-align: center;
-    font-size: 16px;
-    font-weight: 300;
-  }
-
-  
