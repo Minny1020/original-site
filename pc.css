@@ -53,14 +53,17 @@ body {
     flex-wrap: wrap; */
   }
   
-  .works-img img{
+  .works-img {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid #e6e6e6;
     justify-content: space-around;
-    width: 50%;
   }
 
+  .works-img img {
+    width: 45%;
+    border: 1px solid #e6e6e6;
+    margin: 20px;
+  }
   .tittle {
     font-size: 30px;
     text-align: center;
