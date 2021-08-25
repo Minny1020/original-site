@@ -110,6 +110,7 @@ body {
     margin: 0px;
     padding: 100px 20px;
   }
+
   .first h1 {
     font-size: 34px;
     text-align: center;
@@ -163,12 +164,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-bottom: 60px;
     }
     
     .works-img img {
-    width: 35%;
-    border: 5px solid #F9F9F9;
-    margin: 10px;
+    width: 45%;
+    border: 1px solid #F9F9F9;
+    margin: 20px;
   }
   
     .enter {
@@ -231,7 +233,7 @@ body {
   }
 
   .contact-list img {
-    width: 10%;
+    width: 8%;
     margin: 5px 10px 5px 10px;
   }
 
@@ -252,7 +254,7 @@ body {
 
   .name {
     font-size: 25px;
-    margin: 70px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
     font-family: 'Patua One', cursive;
   }
 
@@ -261,6 +263,10 @@ body {
     text-align: center;
     display: block;
     margin: 30px 0px 10px 0px;
+  }
+
+  .inner {
+    text-align: center;
   }
 
 

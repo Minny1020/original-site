@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="jp">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Minny's Original site</title>
-  <link rel="stylesheet" href="pc.css">
+  <link rel="stylesheet" href="res-2.css">
   <link rel="icon" href="img/icon.png">
   <meta name="description" content="ミニーのオリジナルポートフォリオ">
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Patua+One&family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
       <img src="img/header3.png" alt="name">
       <nav class="menu">
         <ul class="menu-list">
-          <li><a href="#intro">About Me</a></li>
+          <li><a href="#intro">About</a></li>
           <li><a href="#works">Portfolio</a></li>
           <li><a href="#skill">Skill</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -32,22 +32,32 @@
       <p>オーストラリア現地のITスクールにてWebデザインを学習中。</p>
       <p>お客様のご希望に沿ったサイトをお作りいたします。</p> 
     </section>
-    <!-- <div class="portfolio">
-      <P>My portfolio</P>
-    </div> -->
-    <section class="works section" id=works>
-      <div class="enter">
-        <h2 class="port">Works</h2>
-        <div class="works-list">
-          <div class="works-img">
-            <img src="pf1/1.png" alt="1">
-            <img src="pf1/2.png" alt="2">
-            <img src="pf1/portfolio1.png" alt="3">
-            <img src="pf1/3.png" alt="4">
+    <div class="show-only-sp">
+      <section class="portfolio" id="works">
+        <P>Works</P>
+        <div class="works">
+          <img src="pf1/1.png" alt="1">
+          <img src="pf1/2.png" alt="2">
+          <img src="pf1/portfolio1.png" alt="3">
+          <img src="pf1/3.png" alt="4">
+        </div>
+      </section>
+    </div>
+    <div class="show-only-pc">
+      <section class="works section" id=works>
+        <div class="enter">
+          <h2 class="port">Works</h2>
+          <div class="works-list">
+            <div class="works-img">
+              <img src="pf1/1.png" alt="1">
+              <img src="pf1/2.png" alt="2">
+              <img src="pf1/portfolio1.png" alt="3">
+              <img src="pf1/3.png" alt="4">
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </main>
   <section class="skill-section" id="skill">
     <div class="inner">
@@ -56,7 +66,7 @@
         <div class="skill-item">
           <p class="skill-img"><img src="img/icon2.png" alt=""></p>
           <div class="skill-body">
-            <h3 class="skill-name">HTML5</h3>
+            <h3 class="skill-name">HTML</h3>
             <p class="skill-text">最新のHTMLを使いサイトの基礎を構築します。</p>
           </div>
         </div>
@@ -64,14 +74,7 @@
           <p class="skill-img"><img src="img/icon1.png" alt=""></p>
           <div class="skill-body">
             <h3 class="skill-name">CSS</h3>
-            <p class="skill-text">サイトのデザインをしお客様に合ったデザインを提供いたします。</p>
-          </div>
-        </div>
-        <div class="skill-item">
-          <p class="skill-img"><img src="img/JS.png" alt=""></p>
-          <div class="skill-body">
-            <h3 class="skill-name">Javascript</h3>
-            <p class="skill-text">現在ITスクールにてJSの基礎を学習中。</p>
+            <p class="skill-text">サイトのデザインをしお客様に合ったデザインを提供いたします</p>
           </div>
         </div>
         <div class="skill-item">
@@ -79,6 +82,13 @@
           <div class="skill-body">
             <h3 class="skill-name">English</h3>
             <p class="skill-text">5年間英語を勉強をしオーストラリア現地の語学学校でUpper Intermediateクラスを卒業。</p>
+          </div>
+        </div>
+        <div  class="skill-item">
+          <p class="skill-img"><img src="img/JS.png" alt=""></p>
+          <div class="skill-body">
+            <h3 class="skill-name">JavaScript</h3>
+            <p class="skill-text">現在ITスクールにてJSの基礎を学習中。</p>
           </div>
         </div>
       </div>
