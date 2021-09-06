@@ -1,4 +1,4 @@
-@charset "Utf-8";
+ @charset "Utf-8";
 
 img {
   width: 100%;
@@ -100,7 +100,7 @@ ul, li {
 
 .menu-list a {
   position: relative;
-  font-size: 13px;
+  font-size: 10px;
   font-weight: bold;
   display: inline-block;
   padding: 5px 0;
